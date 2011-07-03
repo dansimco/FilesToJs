@@ -1,0 +1,1 @@
+templates = {};templates['template_1']='<div id="template_1"><h1 id="title">{{title}}</h1></div>';templates['template_2']='<div id="another_template"><h2 id="title">{{title}}</h2></div>';
