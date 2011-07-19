@@ -1,8 +1,8 @@
-#TemplatesToJs
+#FilesToJs
 
-TemplatesToJs is a ruby class which will take a directory of templates and format them as string values in a javascript object. The advantage of this is the ability to use the same directory of templates for both back end and front end rendering.
+FilesToJs is a ruby class which will take a directory of text files and formats them as string values in a global javascript object. An advantage of this is the ability to use the same directory of templates for both back end and front end rendering, and have all your templates in a single compressed transfer.
 
-Usage:
+Mustache Template example:
 
     template_joiner = TemplatesToJs.new({
       :template_dir    => 'templates', #Defaults to "templates"
