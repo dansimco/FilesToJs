@@ -5,9 +5,9 @@ FilesToJs is a ruby class which will take a directory of text files and formats 
 Mustache Template example:
 
     template_joiner = TemplatesToJs.new({
-      :template_dir    => 'templates', #Defaults to "templates"
-      :template_format => 'mustache',  #Defaults to "mustache"
-      :js_object_name  => 'templates',  #Defaults to "templates"
+      :template_dir    => 'templates',  #Defaults to "templates"
+      :template_format => 'mustache',   #Defaults to "*"
+      :js_object_name  => 'templates',  #Defaults to "files"
       :output          => 'output/mytemplates.js'  #Path to write .js file, Defaults to false
     })
     template_joiner.write_js
