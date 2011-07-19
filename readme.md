@@ -14,3 +14,9 @@ Mustache Template example:
     puts template_joiner.js
     
     
+Returns (javascript)
+
+    files = {
+        'file 1': 'file contents',
+        'file 2': 'file 2 contents',
+    }
