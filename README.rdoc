@@ -1,4 +1,6 @@
-#FilesToJs
+= jscat
+
+FilesToJs will take a directory of text files and formats them as string values in a global javascript object.
 
 FilesToJs will take a directory of text files and formats them as string values in a global javascript object. An advantage of this is the ability to use the same directory of templates for both back end and front end rendering, and have all your templates in a single compressed transfer.
 
@@ -20,4 +22,8 @@ Returns (javascript)
         'file 1': 'file contents',
         'file 2': 'file 2 contents',
     }
-    
+
+== Copyright
+
+Copyright (c) 2011 Daniel Sim
+
