@@ -21,7 +21,7 @@ class FilesToJs
      file_string = ""
      File.open("#{file_path}",'r') do |f1|
        while line = f1.gets
-         file_string = file_string + line.gsub('\'','"').strip
+         file_string = file_string + line.gsub('\'','&#39;').strip
        end
      end
      @js = @js + "#{@js_object_name}['#{file_filename}']='#{file_string}';"
